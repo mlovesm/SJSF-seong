@@ -93,10 +93,10 @@ public class PersonnelAdapter extends BaseAdapter{
 		}else{
 			work_nm= "("+ work_nm +")";
 		}
-		viewHolder.data2.setText(peopleList.get(position).get("j_pos").toString());
+		viewHolder.data2.setText(peopleList.get(position).get("j_spot").toString());
 
 		viewHolder.data4.setText(peopleList.get(position).get("dept_nm1").toString().trim()+work_nm);
-		viewHolder.data5.setText(peopleList.get(position).get("work_nm").toString());
+		viewHolder.data5.setText(peopleList.get(position).get("work_group").toString());
 		viewHolder.data6.setText(user_cell);
 		viewHolder.data7.setText(peopleList.get(position).get("user_email").toString());
 		viewHolder.data8.setText(peopleList.get(position).get("user_addr").toString());

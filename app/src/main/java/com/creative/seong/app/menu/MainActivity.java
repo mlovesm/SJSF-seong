@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
 
 //    adb shell dumpsys activity activities | findstr "Run"
     private static final String TAG = "MainActivity";
-    public static String ipAddress= "http://119.202.61.146:8585";
-//    public static String ipAddress= "http://192.168.0.22:9191";
+//    public static String ipAddress= "http://119.202.61.146:8585";
+    public static String ipAddress= "http://192.168.0.22:9191";
     public static String contextPath= "/sjsf_seong";
 
     //FCM 관련

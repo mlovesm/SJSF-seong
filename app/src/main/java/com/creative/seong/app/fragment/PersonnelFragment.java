@@ -160,7 +160,9 @@ public class PersonnelFragment extends Fragment {
                     hashMap.put("dept_nm1",object.getJSONArray("datas").getJSONObject(i).get("dept_nm1").toString());
                     hashMap.put("dept_nm2",object.getJSONArray("datas").getJSONObject(i).get("dept_nm2").toString());
                     hashMap.put("work_nm",object.getJSONArray("datas").getJSONObject(i).get("work_nm").toString());
+                    hashMap.put("work_group",object.getJSONArray("datas").getJSONObject(i).get("work_group").toString());
                     hashMap.put("j_pos",object.getJSONArray("datas").getJSONObject(i).get("j_pos").toString());
+                    hashMap.put("j_spot",object.getJSONArray("datas").getJSONObject(i).get("j_spot").toString());
                     hashMap.put("user_addr",object.getJSONArray("datas").getJSONObject(i).get("user_addr").toString());
                     hashMap.put("user_email",object.getJSONArray("datas").getJSONObject(i).get("user_email").toString());
                     peopleListArray.add(hashMap);
@@ -190,7 +192,8 @@ public class PersonnelFragment extends Fragment {
                     hashMap.put("dept_nm1",object.getJSONArray("datas").getJSONObject(i).get("dept_nm1").toString());
                     hashMap.put("dept_nm2",object.getJSONArray("datas").getJSONObject(i).get("dept_nm2").toString());
                     hashMap.put("work_nm",object.getJSONArray("datas").getJSONObject(i).get("work_nm").toString());
-                    hashMap.put("j_pos",object.getJSONArray("datas").getJSONObject(i).get("j_pos").toString());
+                    hashMap.put("work_group",object.getJSONArray("datas").getJSONObject(i).get("work_group").toString());
+                    hashMap.put("j_spot",object.getJSONArray("datas").getJSONObject(i).get("j_spot").toString());
                     hashMap.put("user_addr",object.getJSONArray("datas").getJSONObject(i).get("user_addr").toString());
                     hashMap.put("user_email",object.getJSONArray("datas").getJSONObject(i).get("user_email").toString());
                     peopleListArray.add(hashMap);

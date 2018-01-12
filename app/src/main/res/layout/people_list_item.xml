@@ -60,7 +60,6 @@
                 android:ellipsize="end"
                 android:gravity="center_vertical"
                 android:maxLines="1"
-                android:text="New Text"
                 android:textColor="@color/font_333"
                 android:textSize="13sp" />
 
