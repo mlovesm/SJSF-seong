@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:id="@id/linearLayout1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:background="@color/white"
+        >
+
+        <!-- SAO 그룹 -->
+        <LinearLayout
+        android:id="@id/linearLayout1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/border_top">
+                <!-- title -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="SAO(안전활동관찰)결과서"
+                    android:background="@color/title_bg"
+                    android:layout_marginBottom="1dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/item_color"
+                    android:padding="10dp"
+                    >
+                    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/font_333"
+                    android:text="[관찰한 안전 행동]"
+                    />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="@color/font_333"
+                        android:text="지속적인 안전 작업을 격려하기 위해 취한 조치(칭찬한 내용)"
+                        />
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:gravity="top"
+                    android:background="@color/gary_bg"
+                    android:padding="6dp"
+                    android:hint="내용"
+                    android:textColorHint="@color/font_666"
+                    android:textSize="13sp"
+                    android:textColor="@color/font_333"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/item_color"
+                    android:padding="10dp"
+                    android:layout_marginTop="8dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/font_333"
+                        android:text="[불안전한 행동]"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="@color/font_333"
+                        android:text="즉시 시정한 내용 및 재발 방지를 위한 조치"
+                        />
+                </LinearLayout>
+                <EditText
+                    android:id="@id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:gravity="top"
+                    android:background="@color/gary_bg"
+                    android:padding="6dp"
+                    android:hint="내용"
+                    android:textColorHint="@color/font_666"
+                    android:textSize="13sp"
+                    android:textColor="@color/font_333"
+                    />
+            </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+    <!-- 버튼 -->
+</RelativeLayout>

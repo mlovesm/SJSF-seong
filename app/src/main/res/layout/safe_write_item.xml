@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="5dp"
+    android:background="@color/white"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"
+            android:textColor="@color/font_333"
+            android:textStyle="bold"
+            android:text="개인보호구를 착용"
+            android:id="@+id/textView1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_alignParentStart="true"
+            android:maxWidth="220dp"
+            android:gravity="center|left" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:id="@+id/btn1"
+                android:background="@drawable/box_line"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="예"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/font_333"
+                    android:gravity="center"
+                    android:id="@+id/textView2"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/box_line"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_weight="1.0"
+                android:layout_toRightOf="@+id/btn1"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:id="@+id/btn2"
+                android:layout_alignParentRight="false">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="아니오"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/font_333"
+                    android:id="@+id/textView3"
+                    android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="38dp"-->
+        <!--android:background="@drawable/border_bottom"-->
+
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center|left"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:textSize="15sp"-->
+            <!--android:textColor="@color/font_333"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="개인보호구를 착용"-->
+            <!--android:id="@+id/textView1"-->
+            <!--android:ellipsize="end"-->
+            <!--android:maxLines="1"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:maxWidth="220dp" />-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:gravity="center|left"-->
+            <!--&gt;-->
+        <!--&lt;!&ndash; 버튼 &ndash;&gt;-->
+        <!--<LinearLayout-->
+            <!--android:id="@+id/btn2"-->
+            <!--android:background="@drawable/box_blue"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_toRightOf="@+id/textView1"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:text="예"-->
+                <!--android:textSize="14sp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:gravity="center"-->
+                <!--android:id="@+id/text3"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:background="@drawable/box_red"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_weight="1.0"-->
+            <!--android:layout_toRightOf="@+id/btn1"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:text="아니오"-->
+                <!--android:textSize="14sp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:gravity="center"-->
+                <!--android:id="@+id/text4"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    <!--</RelativeLayout>-->
+
+</LinearLayout>

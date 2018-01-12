@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menu_logo"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter" />
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+            android:scaleType="center"
+            android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingTop="5dp" android:paddingBottom="5dp">
+
+            <!--menu 1행-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center_horizontal"
+                    android:padding="8dp"
+                    android:id="@+id/imageView1">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_main_notice"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="공지사항"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textColor="@color/font_333"
+                        android:layout_marginTop="5dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gary"
+                    android:gravity="center_horizontal"
+                    android:padding="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:id="@+id/imageView2">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_main_penalty"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="작업기준"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textColor="@color/font_333"
+                        android:layout_marginTop="5dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--menu 2행-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue"
+                    android:gravity="center_horizontal"
+                    android:padding="8dp"
+                    android:id="@+id/imageView3">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_main_check"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="설비점검"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="#ffd800"
+                    android:gravity="center_horizontal"
+                    android:padding="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:id="@+id/imageView4">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_main_gear"
+                        android:id="@+id/imageView" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="장비점검"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textColor="@color/font_333"
+                        android:layout_marginTop="5dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--menu 3행-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="#bb2f00"
+                    android:gravity="center_horizontal"
+                    android:padding="8dp"
+                    android:id="@+id/imageView5">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_main_danger"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="안전활동관찰"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="#e63a00"
+                    android:gravity="center_horizontal"
+                    android:padding="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:id="@+id/imageView6">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_main_danger"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="안전관리"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--menu 4행-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center_horizontal"
+                    android:padding="8dp"
+                    android:id="@+id/imageView7">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_main_colleague"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="사람찾기"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textColor="@color/font_333"
+                        android:layout_marginTop="5dp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center_horizontal"
+                    android:padding="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:id="@+id/imageView8">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_main_idea"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="무재해현황"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textColor="@color/font_333"
+                        android:layout_marginTop="5dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
